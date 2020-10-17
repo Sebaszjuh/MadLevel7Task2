@@ -11,4 +11,10 @@
     <string name="info_first_fragment">After pressing start you will start the quest. There will be 10 questions you have to answer correctly to win the game.</string>
     <string name="start_quest">Start Quest</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="tv_current_question">%1$d/%2$d</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_start_quest">START QUEST</string>
+    <string name="wrong_answer">Wrong Answer</string>
+    <string name="quiz_completed">Quiz Completed</string>
 </resources>
