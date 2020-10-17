@@ -16,5 +16,6 @@
     <string name="btn_confirm">Confirm</string>
     <string name="btn_start_quest">START QUEST</string>
     <string name="wrong_answer">Wrong Answer</string>
+    <string name="correct_answer">Correct Answer</string>
     <string name="quiz_completed">Quiz Completed</string>
 </resources>
