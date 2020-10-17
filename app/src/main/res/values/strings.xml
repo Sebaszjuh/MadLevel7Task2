@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MadLevel7Task2</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="title_first_fragment">Welcome to the Hva Locations quest</string>
+    <string name="info_first_fragment">After pressing start you will start the quest. There will be 10 questions you have to answer correctly to win the game.</string>
+    <string name="start_quest">Start Quest</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
