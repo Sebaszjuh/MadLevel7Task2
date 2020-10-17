@@ -6,6 +6,8 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import com.google.firebase.FirebaseApp
+import com.google.firebase.firestore.FirebaseFirestore
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,6 +16,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setSupportActionBar(findViewById(R.id.toolbar))
 
+        //Initialisation of Firestore
+        FirebaseFirestore.setLoggingEnabled(true)
+        FirebaseApp.initializeApp(this)
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
